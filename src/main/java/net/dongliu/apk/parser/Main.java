@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.security.cert.CertificateException;
 import java.util.Locale;
 import java.util.Map;
-import java.util.Objects;
 
 /**
  * Main method for parser apk
