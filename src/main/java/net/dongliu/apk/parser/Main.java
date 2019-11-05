@@ -26,6 +26,9 @@ public class Main {
         try (ApkFile apkFile = new ApkFile(apkPath)) {
             apkFile.setPreferredLocale(Locale.getDefault());
             switch (action) {
+                case "packageName":
+                    System.out.println(apkFile.getApkMeta().getPackageName());
+                    break;
                 case "meta":
                     System.out.println(apkFile.getApkMeta());
                     break;
